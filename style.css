@@ -1,0 +1,126 @@
+/* <style> */
+    /* Warna Custom */
+    :root {
+        --primary-color: #333; /* Biru */
+        --secondary-color: #28a745; /* Hijau */
+        --accent-color: #ffc107; /* Kuning */
+        --background-light: #2c2f31; /* Abu-abu muda */
+        --background-gradient: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradien ungu-biru */
+    }
+
+    /* Navbar */
+    .navbar-custom {
+        background-color: var(--primary-color) !important;
+    }
+
+    .carousel-image {
+        height: 600px; /* Atur tinggi gambar */
+        width: 100%; /* Lebar gambar mengikuti container */
+        object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    }
+
+    /* Tombol */
+    .btn-custom {
+        background-color: var(--secondary-color);
+        border: none;
+        color: white;
+    }
+    .btn-custom:hover {
+        background-color: #218838; /* Hijau lebih gelap */
+    }
+
+    /* Card */
+    .card-custom {
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card-custom:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Section Background */
+    .bg-gradient {
+        background: var(--background-gradient);
+        color: rgb(58, 55, 55);
+    }
+    .bg-light-custom {
+        background-color: var(--background-light);
+        color: white;
+    }
+
+    .contact-section {
+        background-color: #fff;
+        padding: 40px;
+        max-width: 800px;
+        margin: 50px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    .contact-section h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .contact-info {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .contact-info div {
+        text-align: center;
+        margin: 10px;
+    }
+    .contact-info i {
+        font-size: 24px;
+        color: #007BFF;
+        margin-bottom: 10px;
+    }
+    .contact-info p {
+        margin: 5px 0;
+        color: #555;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea {
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .contact-form button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+    @media (max-width: 600px) {
+        .contact-info {
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-info div {
+            margin: 20px 0;
+        }
+    }
+    /* Footer */
+    .footer-custom {
+        background-color: var(--primary-color);
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+/* </style> */
